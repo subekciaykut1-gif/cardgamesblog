@@ -17,6 +17,7 @@
 
 const fs   = require("fs");
 const path = require("path");
+require("dotenv").config({ path: path.join(__dirname, "..", ".env.local") });
 const args = process.argv.slice(2);
 
 const DRY_RUN = args.includes("--dry-run");
@@ -28,6 +29,7 @@ const idArg   = args[args.indexOf("--id")   + 1];
 
 const CALENDAR_PATH  = path.join(__dirname, "..", "data", "content-calendar.json");
 const ARTICLES_DIR   = path.join(__dirname, "..", "content", "articles");
+const USED_IMAGES_PATH = path.join(__dirname, "..", "data", "used-unsplash-ids.json");
 
 // ── Load calendar ─────────────────────────────────────────────────────────────
 
@@ -65,14 +67,52 @@ function findEntry() {
 }
 
 // ── Image helper ─────────────────────────────────────────────────────────────
-// Generates a highly relevant, unique image for every single article using a free AI image generator
+// Generates a highly relevant, unique image for every single article using Unsplash API
 
-function getImage(title, category) {
-  const prompt = encodeURIComponent(`${title} - ${category} card game table, high quality photography`);
-  return {
-    url: `https://image.pollinations.ai/prompt/${prompt}?width=1200&height=630&nologo=true`,
+async function getImage(title, category) {
+  const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
+  const fallback = {
+    url: "fallback://cardgameshub",
     alt: `${title} - ${category} card game illustration`
   };
+
+  if (!UNSPLASH_ACCESS_KEY) {
+    console.warn("⚠️ UNSPLASH_ACCESS_KEY not found in .env.local, using fallback placeholder image.");
+    return fallback;
+  }
+
+  let usedIds = [];
+  if (fs.existsSync(USED_IMAGES_PATH)) {
+    try {
+      usedIds = JSON.parse(fs.readFileSync(USED_IMAGES_PATH, "utf-8"));
+    } catch (e) {}
+  }
+
+  const query = encodeURIComponent(`${category} card game`);
+  const api = `https://api.unsplash.com/search/photos?query=${query}&client_id=${UNSPLASH_ACCESS_KEY}&per_page=30`;
+  
+  try {
+    const res = await fetch(api);
+    if (!res.ok) throw new Error(`Unsplash API error: ${res.statusText}`);
+    const data = await res.json();
+    
+    // Find first unused image
+    const photo = data.results.find(p => !usedIds.includes(p.id));
+    if (photo) {
+      usedIds.push(photo.id);
+      fs.writeFileSync(USED_IMAGES_PATH, JSON.stringify(usedIds, null, 2));
+      return {
+        url: photo.urls.regular,
+        alt: photo.alt_description || `${title} illustration`
+      };
+    } else {
+      console.warn("⚠️ No unique Unsplash images left for query:", query);
+    }
+  } catch (e) {
+    console.warn("⚠️ Unsplash fetch failed, using fallback:", e.message);
+  }
+
+  return fallback;
 }
 
 // ── Content templates ─────────────────────────────────────────────────────────
@@ -370,8 +410,8 @@ The best move you can make right now? Start playing. [CardGamesHub.io](/) is the
 
 // ── Build MDX frontmatter + body ──────────────────────────────────────────────
 
-function buildMdx(entry) {
-  const image = getImage(entry.title, entry.category);
+async function buildMdx(entry) {
+  const image = await getImage(entry.title, entry.category);
   const metaTitle = entry.title.length > 60
     ? entry.title.slice(0, 57) + "..."
     : entry.title;
@@ -412,11 +452,11 @@ tags: ${JSON.stringify(tags)}
 
 // ── Write / show result ───────────────────────────────────────────────────────
 
-function run() {
+async function run() {
   const entry = findEntry();
   console.log(`📝 Generating article: "${entry.title}" [${entry.slug}]`);
 
-  const mdx = buildMdx(entry);
+  const mdx = await buildMdx(entry);
 
   if (DRY_RUN) {
     console.log("\n── DRY RUN — output preview ──────────────────────────────\n");

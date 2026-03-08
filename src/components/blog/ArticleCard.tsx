@@ -9,10 +9,14 @@ type Props = { article: Article; compact?: boolean };
 
 export default function ArticleCard({ article, compact = false }: Props) {
   const [imgError, setImgError] = useState(false);
+  
+  const isFallback = article.featuredImage === "fallback://cardgameshub" || imgError;
+  const suits = ['♠', '♥', '♦', '♣'];
+  const suit = suits[article.title.length % 4];
 
   return (
     <Link href={`/blog/${article.slug}`} className="article-card" style={{ textDecoration: "none" }}>
-      {imgError ? (
+      {isFallback ? (
         <div 
           className="article-card-image"
           style={{ 
@@ -22,11 +26,11 @@ export default function ArticleCard({ article, compact = false }: Props) {
             alignItems: 'center',
             justifyContent: 'center',
             color: 'var(--accent)',
-            fontSize: '3rem',
-            opacity: 0.6
+            fontSize: '3.5rem',
+            opacity: 0.8
           }}
         >
-          🃏
+          {suit}
         </div>
       ) : (
         <img
