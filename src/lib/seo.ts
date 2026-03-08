@@ -52,7 +52,7 @@ export function generateArticleJsonLd(article: Article): string {
     datePublished: article.publishedAt,
     dateModified: article.publishedAt,
     author: {
-      "@type": "Organization",
+      "@type": "Person",
       name: article.author,
       url: SITE_URL,
     },

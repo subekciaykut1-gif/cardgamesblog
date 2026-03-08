@@ -26,7 +26,7 @@ export async function GET() {
       <description>${escapeXml(a.excerpt)}</description>
       <pubDate>${new Date(a.publishedAt).toUTCString()}</pubDate>
       <category>${escapeXml(a.category)}</category>
-      <author>noreply@cardgameshub.io (CardGamesHub Team)</author>
+      <author>noreply@cardgameshub.io (Tugrul Subekci)</author>
     </item>`
     )
     .join("\n");
@@ -40,8 +40,8 @@ export async function GET() {
     <language>en</language>
     <atom:link href="${SITE_URL}/blog/rss.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-    <managingEditor>noreply@cardgameshub.io (CardGamesHub Team)</managingEditor>
-    <webMaster>noreply@cardgameshub.io (CardGamesHub Team)</webMaster>
+    <managingEditor>noreply@cardgameshub.io (Tugrul Subekci)</managingEditor>
+    <webMaster>noreply@cardgameshub.io (Tugrul Subekci)</webMaster>
     <image>
       <url>${SITE_URL}/favicon.ico</url>
       <title>CardGamesHub.io Blog</title>

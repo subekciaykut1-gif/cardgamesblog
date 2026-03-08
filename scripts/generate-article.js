@@ -415,7 +415,7 @@ async function buildMdx(entry) {
   const metaTitle = entry.title.length > 60
     ? entry.title.slice(0, 57) + "..."
     : entry.title;
-  const metaDesc = `${entry.title} — Expert guide by CardGamesHub Team. Tips, strategies and everything card game enthusiasts need to know.`.slice(0, 160);
+  const metaDesc = `${entry.title} — Expert guide by Tugrul Subekci. Tips, strategies and everything card game enthusiasts need to know.`.slice(0, 160);
 
   let bodyContent;
   if (entry.internalCategory === "Cribbage") {
@@ -438,7 +438,7 @@ title: "${entry.title.replace(/"/g, '\\"')}"
 slug: "${entry.slug}"
 category: "${entry.category}"
 publishedAt: "${entry.publishedAt}"
-author: "CardGamesHub Team"
+author: "Tugrul Subekci"
 excerpt: "${excerpt.replace(/"/g, '\\"')}"
 featuredImage: "${image.url}"
 altText: "${image.alt.replace(/"/g, '\\"')}"

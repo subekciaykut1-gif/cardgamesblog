@@ -61,7 +61,7 @@ function parseArticleFile(slug: string): Article | null {
     excerpt: data.excerpt ?? "",
     category: data.category ?? "Card Game News",
     publishedAt: data.publishedAt,
-    author: data.author ?? "CardGamesHub Team",
+    author: data.author ?? "Tugrul Subekci",
     featuredImage: data.featuredImage ?? "/images/blog/default.jpg",
     altText: data.altText ?? data.title ?? "",
     metaTitle: data.metaTitle ?? data.title ?? "",

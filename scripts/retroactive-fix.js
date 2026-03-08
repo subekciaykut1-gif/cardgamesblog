@@ -70,6 +70,12 @@ async function fixArticle(file) {
     data.featuredImage = image.url;
     data.altText = image.alt;
   }
+  
+  // Update author globally
+  data.author = "Tugrul Subekci";
+  if (data.metaDescription && data.metaDescription.includes("CardGamesHub Team")) {
+    data.metaDescription = data.metaDescription.replace("CardGamesHub Team", "Tugrul Subekci");
+  }
 
   // Re-serialize
   // We use our own string template to avoid strange gray-matter output formatting string quotes issues
@@ -79,7 +85,7 @@ title: "${data.title.replace(/"/g, '\\"')}"
 slug: "${data.slug}"
 category: "${data.category}"
 publishedAt: "${data.publishedAt}"
-author: "CardGamesHub Team"
+author: "${data.author.replace(/"/g, '\\"')}"
 excerpt: "${data.excerpt.replace(/"/g, '\\"')}"
 featuredImage: "${data.featuredImage}"
 altText: "${data.altText.replace(/"/g, '\\"')}"
