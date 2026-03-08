@@ -386,6 +386,11 @@ function buildMdx(entry) {
     bodyContent = buildGeneralArticle(entry);
   }
 
+  const rawParagraphs = bodyContent.split('\n\n').map(p => p.trim()).filter(p => p && !p.startsWith('#') && !p.startsWith('>'));
+  let rawExcerpt = rawParagraphs[0] || entry.title;
+  rawExcerpt = rawExcerpt.replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+  const excerpt = rawExcerpt.length > 120 ? rawExcerpt.slice(0, 117) + '...' : rawExcerpt;
+
   const tags = [entry.category.toLowerCase(), "card games", "cardgameshub"];
 
   const frontmatter = `---
@@ -394,7 +399,7 @@ slug: "${entry.slug}"
 category: "${entry.category}"
 publishedAt: "${entry.publishedAt}"
 author: "CardGamesHub Team"
-excerpt: "${metaDesc.slice(0, 120).replace(/"/g, '\\"')}"
+excerpt: "${excerpt.replace(/"/g, '\\"')}"
 featuredImage: "${image.url}"
 altText: "${image.alt.replace(/"/g, '\\"')}"
 metaTitle: "${metaTitle.replace(/"/g, '\\"')}"
