@@ -432,17 +432,12 @@ hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
 .article-byline {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
   margin-top: 0.75rem;
   color: var(--text-muted);
   font-size: var(--font-size-sm);
-}
-.article-byline span {
-  width: 3px;
-  height: 3px;
-  background: var(--text-muted);
-  border-radius: 50%;
-  display: inline-block;
+  white-space: nowrap;
 }
 .article-featured-image {
   width: 100%;

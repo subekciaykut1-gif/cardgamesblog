@@ -50,7 +50,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
               <span className="reading-time">{article.readingTime} min read</span>
             </div>
             <h1>{article.title}</h1>
-            <div className="article-byline" style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--text-secondary)", fontSize: "0.95rem", marginTop: "1rem" }}>
+            <div className="article-byline">
               <span>By {article.author} &middot; <time dateTime={article.publishedAt}>{formattedDate}</time></span>
             </div>
           </header>
