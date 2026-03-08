@@ -40,6 +40,7 @@ function estimateReadingTime(text: string): number {
 }
 
 function isPublished(publishedAt: string): boolean {
+  if (process.env.NODE_ENV === "development") return true;
   const now = new Date().getTime();
   const pub = new Date(publishedAt).getTime();
   return pub <= now;
