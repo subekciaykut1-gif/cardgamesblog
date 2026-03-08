@@ -66,11 +66,71 @@ function findEntry() {
   process.exit(1);
 }
 
-// ── Image helper ─────────────────────────────────────────────────────────────
-// Generates a unique, stable image for every article using Picsum Photos
+const categoryKeywords = {
+  "Cribbage": "cribbage,cards",
+  "Solitaire": "solitaire,cards",
+  "Strategy": "strategy,cards",
+  "Rules & How-To": "playing,cards",
+  "History": "vintage,cards",
+  "Tips & Tricks": "card,game",
+  "Card Game News": "cards,game"
+};
 
-function getImageUrl(slug) {
-  return `https://picsum.photos/seed/${slug}/800/450`;
+function getImageUrl(category, id) {
+  const kw = categoryKeywords[category] || "cards,game";
+  return `https://loremflickr.com/800/450/${kw}?lock=${id}`;
+}
+
+function calculateSimilarity(text1, text2) {
+  if (!text1 || !text2) return 0;
+  const words1 = new Set(text1.toLowerCase().replace(/[^\w\s]/g, '').split(/\s+/).filter(w => w.length > 3));
+  const words2 = new Set(text2.toLowerCase().replace(/[^\w\s]/g, '').split(/\s+/).filter(w => w.length > 3));
+  if (words1.size === 0 || words2.size === 0) return 0;
+  const intersection = new Set([...words1].filter(x => words2.has(x)));
+  const union = new Set([...words1, ...words2]);
+  return intersection.size / union.size;
+}
+
+async function generateWithAI(entry) {
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) {
+    console.warn("⚠️ OPENAI_API_KEY not found. Falling back to templates.");
+    return null;
+  }
+
+  const prompt = `
+    Write a high-quality, SEO-optimized blog article for CardGamesHub.io.
+    Title: ${entry.title.replace(/\s*\(Part\s*\d+\)/gi, '')}
+    Category: ${entry.category}
+    
+    CRITICAL INSTRUCTIONS FOR UNIQUENESS:
+    - This article must be ENTIRELY UNIQUE.
+    - Do not reuse any sentences, paragraphs, or phrasing from previously generated articles.
+    - Each article must have a distinct angle, opening paragraph, subheadings, and examples.
+    - Write at least 1000 words in Markdown format.
+    - Include subheadings (##), bullet points, and a table if relevant.
+    - Use a professional yet engaging tone.
+  `;
+
+  try {
+    const response = await fetch("https://api.openai.com/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${apiKey}`
+      },
+      body: JSON.stringify({
+        model: "gpt-4o",
+        messages: [{ role: "user", content: prompt }],
+        temperature: 0.7
+      })
+    });
+    const data = await response.json();
+    return data.choices[0].message.content;
+  } catch (e) {
+    console.error("AI Generation failed:", e.message);
+    return null;
+  }
 }
 
 // ── Content templates ─────────────────────────────────────────────────────────
@@ -369,21 +429,29 @@ The best move you can make right now? Start playing. [CardGamesHub.io](/) is the
 // ── Build MDX frontmatter + body ──────────────────────────────────────────────
 
 async function buildMdx(entry) {
-  const imageUrl = getImageUrl(entry.slug);
-  const altText = `${entry.title} - ${entry.category} illustration`;
+  const imageUrl = getImageUrl(entry.category, entry.id);
+  const cleanTitle = entry.title.replace(/\s*\(Part\s*\d+\)/gi, '');
+  const altText = `${cleanTitle} - ${entry.category} illustration`;
   const metaTitle = entry.title.length > 60
     ? entry.title.slice(0, 57) + "..."
     : entry.title;
   const metaDesc = `${entry.title} — Expert guide by Tugrul Subekci. Tips, strategies and everything card game enthusiasts need to know.`.slice(0, 160);
 
-  let bodyContent;
-  if (entry.internalCategory === "Cribbage") {
-    bodyContent = buildCribbageArticle(entry);
-  } else if (entry.internalCategory === "Solitaire") {
-    bodyContent = buildSolitaireArticle(entry);
-  } else {
-    bodyContent = buildGeneralArticle(entry);
+  let bodyContent = await generateWithAI(entry);
+  
+  if (!bodyContent) {
+    // Fallback to templates if AI fails/no key
+    if (entry.internalCategory === "Cribbage") {
+      bodyContent = buildCribbageArticle(entry);
+    } else if (entry.internalCategory === "Solitaire") {
+      bodyContent = buildSolitaireArticle(entry);
+    } else {
+      bodyContent = buildGeneralArticle(entry);
+    }
   }
+
+  // Similarity check logic here would ideally compare against all files in ARTICLES_DIR
+  // For the sake of this script, we'll implement it in the run function.
 
   const rawParagraphs = bodyContent.split('\n\n').map(p => p.trim()).filter(p => p && !p.startsWith('#') && !p.startsWith('>'));
   let rawExcerpt = rawParagraphs[0] || entry.title;
@@ -392,8 +460,9 @@ async function buildMdx(entry) {
 
   const tags = [entry.category.toLowerCase(), "card games", "cardgameshub"];
 
+  const cleanTitleValue = entry.title.replace(/\s*\(Part\s*\d+\)/gi, '');
   const frontmatter = `---
-title: "${entry.title.replace(/"/g, '\\"')}"
+title: "${cleanTitleValue.replace(/"/g, '\\"')}"
 slug: "${entry.slug}"
 category: "${entry.category}"
 publishedAt: "${entry.publishedAt}"
@@ -415,7 +484,22 @@ async function run() {
   const entry = findEntry();
   console.log(`📝 Generating article: "${entry.title}" [${entry.slug}]`);
 
-  const mdx = await buildMdx(entry);
+  let mdx = await buildMdx(entry);
+  
+  // Similarity Check
+  const otherFiles = fs.readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.mdx') && !f.includes(entry.slug));
+  let isDuplicate = false;
+  
+  for (const file of otherFiles.slice(0, 50)) { // Check last 50 for performance
+    const otherContent = fs.readFileSync(path.join(ARTICLES_DIR, file), 'utf-8');
+    const similarity = calculateSimilarity(mdx, otherContent);
+    if (similarity > 0.4) {
+      console.warn(`⚠️ Content is too similar (${(similarity*100).toFixed(1)}%) to ${file}. Regenerating...`);
+      mdx = await buildMdx(entry); // One retry for now
+      isDuplicate = true;
+      break;
+    }
+  }
 
   if (DRY_RUN) {
     console.log("\n── DRY RUN — output preview ──────────────────────────────\n");
