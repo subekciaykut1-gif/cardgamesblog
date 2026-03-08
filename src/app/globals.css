@@ -6,7 +6,7 @@
    green accent (pulled from the game tile styling)
 ────────────────────────────────────────── */
 :root {
-  /* colours */
+  /* dark mode colours (default) */
   --bg-primary: #0f0f0f;
   --bg-secondary: #1a1a1a;
   --bg-card: #1e1e1e;
@@ -35,6 +35,25 @@
   /* spacing */
   --max-w-content: 740px;
   --max-w-blog: 1140px;
+}
+
+/* ──────────────────────────────────────────
+   Light Theme Override
+────────────────────────────────────────── */
+:root.light {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f1f5f9;
+  --border: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --accent: #16a34a;          /* darker green for contrast in light mode */
+  --accent-dark: #15803d;
+  --accent-muted: rgba(22, 163, 74, 0.1);
+  --ad-bg: #f0fdf4;
+  --ad-border: #bbf7d0;
 }
 
 /* ── Reset & Base ── */

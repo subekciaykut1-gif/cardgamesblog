@@ -15,9 +15,11 @@ export const metadata: Metadata = {
   ),
 };
 
+import { ThemeProvider } from "@/components/blog/ThemeProvider";
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link
           rel="preconnect"
@@ -34,9 +36,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
-        <BlogHeader />
-        <main>{children}</main>
-        <BlogFooter />
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
+          <BlogHeader />
+          <main>{children}</main>
+          <BlogFooter />
+        </ThemeProvider>
       </body>
     </html>
   );

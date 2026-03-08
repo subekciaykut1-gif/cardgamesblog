@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ThemeToggle } from "@/components/blog/ThemeToggle";
 
 const NAV_LINKS = [
   { href: "https://cardgameshub.io/", label: "All Games" },
@@ -28,6 +29,7 @@ export default function BlogHeader() {
               {label}
             </Link>
           ))}
+          <ThemeToggle />
           <Link
             href="https://cardgameshub.io/signIn"
             className="btn-signin"
