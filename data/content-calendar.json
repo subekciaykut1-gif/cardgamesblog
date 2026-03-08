@@ -25,9 +25,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Hand Rankings and Probabilities Explained",
       "slug": "cribbage-hand-rankings-and-probabilities",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:01.446Z",
       "notes": ""
     },
     {
@@ -38,9 +38,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Pegging Strategy: When to Go Offensive or Defensive",
       "slug": "cribbage-pegging-strategy-offensive-defensive",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:01.514Z",
       "notes": ""
     },
     {
@@ -51,9 +51,9 @@
       "internalCategory": "Cribbage",
       "title": "Two-Player vs Three-Player vs Four-Player Cribbage: Differences",
       "slug": "two-player-three-player-four-player-cribbage",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:01.580Z",
       "notes": ""
     },
     {
@@ -64,9 +64,9 @@
       "internalCategory": "Cribbage",
       "title": "Muggins Rule in Cribbage: What It Is and When It Applies",
       "slug": "muggins-rule-in-cribbage-explained",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:01.651Z",
       "notes": ""
     },
     {
@@ -77,9 +77,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Algorithms: How Computer Versions Are Built",
       "slug": "solitaire-algorithms-computer-versions",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:01.721Z",
       "notes": ""
     },
     {
@@ -90,9 +90,9 @@
       "internalCategory": "Cribbage",
       "title": "How Points Are Counted in the Cribbage Crib",
       "slug": "how-points-counted-in-cribbage-crib",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:01.788Z",
       "notes": ""
     },
     {
@@ -103,9 +103,9 @@
       "internalCategory": "Cribbage",
       "title": "Best Cribbage Discards: What to Keep and What to Toss",
       "slug": "best-cribbage-discards-strategy",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:01.850Z",
       "notes": ""
     },
     {
@@ -116,9 +116,9 @@
       "internalCategory": "Solitaire",
       "title": "Forty Thieves Solitaire Explained",
       "slug": "forty-thieves-solitaire-explained",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:01.911Z",
       "notes": ""
     },
     {
@@ -129,9 +129,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Card Combinations: Pairs, Runs & Fifteens Explained",
       "slug": "cribbage-card-combinations-pairs-runs-fifteens",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:01.972Z",
       "notes": ""
     },
     {
@@ -142,9 +142,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage vs Other Card Games: Why It Stands Apart",
       "slug": "cribbage-vs-other-card-games",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.034Z",
       "notes": ""
     },
     {
@@ -155,9 +155,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Play Double Klondike Solitaire",
       "slug": "how-to-play-double-klondike-solitaire",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.095Z",
       "notes": ""
     },
     {
@@ -181,9 +181,9 @@
       "internalCategory": "Solitaire",
       "title": "The History of Solitaire: From Card Tables to Screens",
       "slug": "history-of-solitaire",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.156Z",
       "notes": ""
     },
     {
@@ -194,9 +194,9 @@
       "internalCategory": "Solitaire",
       "title": "How Solitaire Teaches Probability and Planning",
       "slug": "solitaire-teaches-probability-planning",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.216Z",
       "notes": ""
     },
     {
@@ -207,9 +207,9 @@
       "internalCategory": "Solitaire",
       "title": "Classic Card Game Patience Variants from Around the World",
       "slug": "patience-variants-around-the-world",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.276Z",
       "notes": ""
     },
     {
@@ -220,9 +220,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire on Mobile vs Desktop: Best Experience Guide",
       "slug": "solitaire-mobile-vs-desktop",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.337Z",
       "notes": ""
     },
     {
@@ -233,9 +233,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Play Klondike Solitaire: Rules and Strategy",
       "slug": "how-to-play-klondike-solitaire",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.397Z",
       "notes": ""
     },
     {
@@ -246,9 +246,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Opening Discards: 10 Expert Moves Explained",
       "slug": "cribbage-opening-discards-expert-moves",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.456Z",
       "notes": ""
     },
     {
@@ -259,9 +259,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Scoring Rules Explained — Every Hand Combination",
       "slug": "cribbage-scoring-rules-explained",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.520Z",
       "notes": ""
     },
     {
@@ -272,9 +272,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Defensive Strategy: Protecting Your Lead",
       "slug": "cribbage-defensive-strategy-protecting-lead",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.582Z",
       "notes": ""
     },
     {
@@ -285,9 +285,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Etiquette: How to Play Properly and Respectfully",
       "slug": "cribbage-etiquette-how-to-play-properly",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.648Z",
       "notes": ""
     },
     {
@@ -298,9 +298,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Teach Cribbage to Kids and Beginners",
       "slug": "how-to-teach-cribbage-to-kids",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.711Z",
       "notes": ""
     },
     {
@@ -311,9 +311,9 @@
       "internalCategory": "Solitaire",
       "title": "Patience Card Games: The British Family of Solitaire",
       "slug": "patience-card-games-british-solitaire",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.778Z",
       "notes": ""
     },
     {
@@ -324,9 +324,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Records: Highest Scores and Longest Games",
       "slug": "cribbage-records-highest-scores",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.838Z",
       "notes": ""
     },
     {
@@ -337,9 +337,9 @@
       "internalCategory": "Cribbage",
       "title": "Speed Cribbage: Rules for Faster-Paced Play",
       "slug": "speed-cribbage-rules-faster-play",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.902Z",
       "notes": ""
     },
     {
@@ -350,9 +350,9 @@
       "internalCategory": "Solitaire",
       "title": "Daily Solitaire Challenges: Why They Boost Engagement",
       "slug": "daily-solitaire-challenges-engagement",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:02.960Z",
       "notes": ""
     },
     {
@@ -363,9 +363,9 @@
       "internalCategory": "Solitaire",
       "title": "Spider Solitaire Rules and Winning Strategy Guide",
       "slug": "spider-solitaire-rules-strategy",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.021Z",
       "notes": ""
     },
     {
@@ -376,9 +376,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Read a Cribbage Board and Track Score",
       "slug": "how-to-read-cribbage-board-track-score",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.080Z",
       "notes": ""
     },
     {
@@ -389,9 +389,9 @@
       "internalCategory": "Solitaire",
       "title": "FreeCell Solitaire: Tips and Strategy for Beginners",
       "slug": "freecell-solitaire-tips-beginners",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.139Z",
       "notes": ""
     },
     {
@@ -402,9 +402,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Math: How Arithmetic Improves Your Game",
       "slug": "cribbage-math-arithmetic-improves-game",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.200Z",
       "notes": ""
     },
     {
@@ -415,9 +415,9 @@
       "internalCategory": "Solitaire",
       "title": "The Easiest Solitaire Games for Absolute Beginners",
       "slug": "easiest-solitaire-games-beginners",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.262Z",
       "notes": ""
     },
     {
@@ -428,9 +428,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire vs Patience: What's the Difference?",
       "slug": "solitaire-vs-patience-difference",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.322Z",
       "notes": ""
     },
     {
@@ -441,9 +441,9 @@
       "internalCategory": "Solitaire",
       "title": "La Belle Lucie Solitaire: How to Play",
       "slug": "la-belle-lucie-solitaire",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.385Z",
       "notes": ""
     },
     {
@@ -454,9 +454,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Tournament Rules and Formats",
       "slug": "cribbage-tournament-rules-and-formats",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.444Z",
       "notes": ""
     },
     {
@@ -467,9 +467,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Board Setup and Game Variants Guide",
       "slug": "cribbage-board-setup-and-variants",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.510Z",
       "notes": ""
     },
     {
@@ -480,9 +480,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Scoring Systems: How Points Work",
       "slug": "solitaire-scoring-systems",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.573Z",
       "notes": ""
     },
     {
@@ -493,9 +493,9 @@
       "internalCategory": "Cribbage",
       "title": "Digital Cribbage Apps: The Best Options in 2026",
       "slug": "digital-cribbage-apps-best-2026",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.638Z",
       "notes": ""
     },
     {
@@ -506,9 +506,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Improve Your Solitaire Win Rate: Expert Tips",
       "slug": "improve-solitaire-win-rate-tips",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.697Z",
       "notes": ""
     },
     {
@@ -519,9 +519,9 @@
       "internalCategory": "Solitaire",
       "title": "Best Free Online Solitaire Sites in 2026",
       "slug": "best-free-online-solitaire-sites-2026",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.759Z",
       "notes": ""
     },
     {
@@ -532,9 +532,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Hand Analysis: Top 5 Strongest Hands",
       "slug": "cribbage-hand-analysis-strongest-hands",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.819Z",
       "notes": ""
     },
     {
@@ -545,9 +545,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire for Kids: Simple Variants to Start With",
       "slug": "solitaire-for-kids-simple-variants",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.879Z",
       "notes": ""
     },
     {
@@ -558,9 +558,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Tournament Play: Rules and Formats",
       "slug": "solitaire-tournament-play-rules",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:03.940Z",
       "notes": ""
     },
     {
@@ -571,9 +571,9 @@
       "internalCategory": "Solitaire",
       "title": "Golf Solitaire: How to Play and Win",
       "slug": "golf-solitaire-how-to-play",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.002Z",
       "notes": ""
     },
     {
@@ -584,9 +584,9 @@
       "internalCategory": "Solitaire",
       "title": "Spider Solitaire One-Suit vs Four-Suit: Which Is Harder?",
       "slug": "spider-solitaire-one-suit-vs-four-suit",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.062Z",
       "notes": ""
     },
     {
@@ -597,9 +597,9 @@
       "internalCategory": "Solitaire",
       "title": "What to Do When You're Stuck in Solitaire",
       "slug": "what-to-do-stuck-in-solitaire",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.122Z",
       "notes": ""
     },
     {
@@ -610,9 +610,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Win Klondike Solitaire Every Time (Almost)",
       "slug": "how-to-win-klondike-solitaire",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.182Z",
       "notes": ""
     },
     {
@@ -623,9 +623,9 @@
       "internalCategory": "Solitaire",
       "title": "Pyramid Solitaire Explained: Rules and How to Win",
       "slug": "pyramid-solitaire-rules-how-to-win",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.242Z",
       "notes": ""
     },
     {
@@ -636,9 +636,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire World Records: Fastest Completions",
       "slug": "solitaire-world-records-fastest",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.304Z",
       "notes": ""
     },
     {
@@ -649,9 +649,9 @@
       "internalCategory": "Solitaire",
       "title": "Best Solitaire Variants Ranked: Klondike, Spider, FreeCell & More",
       "slug": "best-solitaire-variants-ranked",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.369Z",
       "notes": ""
     },
     {
@@ -662,9 +662,9 @@
       "internalCategory": "Solitaire",
       "title": "FreeCell Solitaire: Is Every Deal Winnable?",
       "slug": "freecell-solitaire-every-deal-winnable",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.436Z",
       "notes": ""
     },
     {
@@ -675,9 +675,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Win at Cribbage Consistently: Pro Tips",
       "slug": "how-to-win-at-cribbage-consistently",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.497Z",
       "notes": ""
     },
     {
@@ -688,9 +688,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage for Seniors: Benefits and How to Get Started",
       "slug": "cribbage-for-seniors-benefits-getting-started",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.557Z",
       "notes": ""
     },
     {
@@ -701,9 +701,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Play Two-Deck Solitaire Games",
       "slug": "two-deck-solitaire-games",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.624Z",
       "notes": ""
     },
     {
@@ -714,9 +714,9 @@
       "internalCategory": "Cribbage",
       "title": "Why Cribbage Is Good for Your Brain",
       "slug": "why-cribbage-is-good-for-your-brain",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.686Z",
       "notes": ""
     },
     {
@@ -727,9 +727,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Improve at Cribbage: Practice Drills for Players",
       "slug": "how-to-improve-at-cribbage-practice-drills",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.748Z",
       "notes": ""
     },
     {
@@ -740,9 +740,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Apps Compared: Top 5 Free Options",
       "slug": "solitaire-apps-compared-top-5",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.814Z",
       "notes": ""
     },
     {
@@ -753,9 +753,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Terminology Glossary: Every Term You Need to Know",
       "slug": "cribbage-terminology-glossary",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.874Z",
       "notes": ""
     },
     {
@@ -766,9 +766,9 @@
       "internalCategory": "Cribbage",
       "title": "Advanced Cribbage Strategy: Counting, Discarding & Pegging",
       "slug": "advanced-cribbage-strategy-counting-discarding-pegging",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.936Z",
       "notes": ""
     },
     {
@@ -779,9 +779,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire at 100 WPM: Speed Records and Techniques",
       "slug": "solitaire-speed-records-techniques",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:04.999Z",
       "notes": ""
     },
     {
@@ -792,9 +792,9 @@
       "internalCategory": "Solitaire",
       "title": "Canfield Solitaire: History, Rules, and Tips",
       "slug": "canfield-solitaire-history-rules-tips",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.059Z",
       "notes": ""
     },
     {
@@ -805,9 +805,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage for One: Solitaire Cribbage Rules",
       "slug": "cribbage-for-one-solitaire-rules",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.118Z",
       "notes": ""
     },
     {
@@ -818,9 +818,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Variants: Lowball, Shotgun, and Cricket Explained",
       "slug": "cribbage-variants-lowball-shotgun-cricket",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.178Z",
       "notes": ""
     },
     {
@@ -831,9 +831,9 @@
       "internalCategory": "Cribbage",
       "title": "Common Cribbage Mistakes and How to Avoid Them",
       "slug": "common-cribbage-mistakes-how-to-avoid",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.238Z",
       "notes": ""
     },
     {
@@ -844,9 +844,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Strategy: When to Deal Again vs Replay",
       "slug": "solitaire-strategy-deal-again-replay",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.297Z",
       "notes": ""
     },
     {
@@ -857,9 +857,9 @@
       "internalCategory": "Solitaire",
       "title": "How Microsoft Solitaire Changed Card Gaming Forever",
       "slug": "microsoft-solitaire-changed-card-gaming",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.357Z",
       "notes": ""
     },
     {
@@ -870,9 +870,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire for Mental Health: Why It Helps",
       "slug": "solitaire-for-mental-health",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.416Z",
       "notes": ""
     },
     {
@@ -883,9 +883,9 @@
       "internalCategory": "Solitaire",
       "title": "Aces Up Solitaire: Rules and Strategy",
       "slug": "aces-up-solitaire-rules-strategy",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.477Z",
       "notes": ""
     },
     {
@@ -896,9 +896,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Odds: Can Every Game Be Won?",
       "slug": "solitaire-odds-can-every-game-be-won",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.536Z",
       "notes": ""
     },
     {
@@ -909,9 +909,9 @@
       "internalCategory": "Solitaire",
       "title": "Tri Peaks Solitaire: Beginner Strategy Guide",
       "slug": "tri-peaks-solitaire-strategy",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.600Z",
       "notes": ""
     },
     {
@@ -922,9 +922,9 @@
       "internalCategory": "Solitaire",
       "title": "Baker's Dozen Solitaire: Rules and Tips",
       "slug": "bakers-dozen-solitaire-rules-tips",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.665Z",
       "notes": ""
     },
     {
@@ -935,9 +935,9 @@
       "internalCategory": "Solitaire",
       "title": "Speed Solitaire Challenges: How to Play Faster",
       "slug": "speed-solitaire-challenges",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.728Z",
       "notes": ""
     },
     {
@@ -948,9 +948,9 @@
       "internalCategory": "Cribbage",
       "title": "The History and Origins of Cribbage",
       "slug": "history-and-origins-of-cribbage",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.787Z",
       "notes": ""
     },
     {
@@ -961,9 +961,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Algorithms: How Computer Versions Are Built (Part 2)",
       "slug": "solitaire-algorithms-computer-versions-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.847Z",
       "notes": ""
     },
     {
@@ -974,9 +974,9 @@
       "internalCategory": "Solitaire",
       "title": "Forty Thieves Solitaire Explained (Part 2)",
       "slug": "forty-thieves-solitaire-explained-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.907Z",
       "notes": ""
     },
     {
@@ -987,9 +987,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Play Double Klondike Solitaire (Part 2)",
       "slug": "how-to-play-double-klondike-solitaire-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:05.969Z",
       "notes": ""
     },
     {
@@ -1000,9 +1000,9 @@
       "internalCategory": "Cribbage",
       "title": "The Perfect Cribbage Hand: Is 29 Points Achievable?",
       "slug": "perfect-cribbage-hand-29-points",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.030Z",
       "notes": ""
     },
     {
@@ -1013,9 +1013,9 @@
       "internalCategory": "Solitaire",
       "title": "The History of Solitaire: From Card Tables to Screens (Part 2)",
       "slug": "history-of-solitaire-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.090Z",
       "notes": ""
     },
     {
@@ -1026,9 +1026,9 @@
       "internalCategory": "Solitaire",
       "title": "How Solitaire Teaches Probability and Planning (Part 2)",
       "slug": "solitaire-teaches-probability-planning-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.151Z",
       "notes": ""
     },
     {
@@ -1039,9 +1039,9 @@
       "internalCategory": "Solitaire",
       "title": "Classic Card Game Patience Variants from Around the World (Part 2)",
       "slug": "patience-variants-around-the-world-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.216Z",
       "notes": ""
     },
     {
@@ -1052,9 +1052,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Probability: What Are the Odds of a 29-Point Hand?",
       "slug": "cribbage-probability-29-point-hand-odds",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.279Z",
       "notes": ""
     },
     {
@@ -1065,9 +1065,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire on Mobile vs Desktop: Best Experience Guide (Part 2)",
       "slug": "solitaire-mobile-vs-desktop-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.340Z",
       "notes": ""
     },
     {
@@ -1078,9 +1078,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage House Rules: Variations Across the UK and US",
       "slug": "cribbage-house-rules-uk-us-variations",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.401Z",
       "notes": ""
     },
     {
@@ -1091,9 +1091,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Play Klondike Solitaire: Rules and Strategy (Part 2)",
       "slug": "how-to-play-klondike-solitaire-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.461Z",
       "notes": ""
     },
     {
@@ -1104,9 +1104,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Starter Card Strategy: How to Use the Cut",
       "slug": "cribbage-starter-card-strategy",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.525Z",
       "notes": ""
     },
     {
@@ -1117,9 +1117,9 @@
       "internalCategory": "Solitaire",
       "title": "Patience Card Games: The British Family of Solitaire (Part 2)",
       "slug": "patience-card-games-british-solitaire-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.588Z",
       "notes": ""
     },
     {
@@ -1130,9 +1130,9 @@
       "internalCategory": "Solitaire",
       "title": "Daily Solitaire Challenges: Why They Boost Engagement (Part 2)",
       "slug": "daily-solitaire-challenges-engagement-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.655Z",
       "notes": ""
     },
     {
@@ -1143,9 +1143,9 @@
       "internalCategory": "Solitaire",
       "title": "Spider Solitaire Rules and Winning Strategy Guide (Part 2)",
       "slug": "spider-solitaire-rules-strategy-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.719Z",
       "notes": ""
     },
     {
@@ -1156,9 +1156,9 @@
       "internalCategory": "Solitaire",
       "title": "FreeCell Solitaire: Tips and Strategy for Beginners (Part 2)",
       "slug": "freecell-solitaire-tips-beginners-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.781Z",
       "notes": ""
     },
     {
@@ -1169,9 +1169,9 @@
       "internalCategory": "Solitaire",
       "title": "The Easiest Solitaire Games for Absolute Beginners (Part 2)",
       "slug": "easiest-solitaire-games-beginners-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.843Z",
       "notes": ""
     },
     {
@@ -1182,9 +1182,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire vs Patience: What's the Difference? (Part 2)",
       "slug": "solitaire-vs-patience-difference-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.905Z",
       "notes": ""
     },
     {
@@ -1195,9 +1195,9 @@
       "internalCategory": "Solitaire",
       "title": "La Belle Lucie Solitaire: How to Play (Part 2)",
       "slug": "la-belle-lucie-solitaire-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:06.967Z",
       "notes": ""
     },
     {
@@ -1208,9 +1208,9 @@
       "internalCategory": "Cribbage",
       "title": "Online Cribbage vs Physical Cribbage: Key Differences",
       "slug": "online-cribbage-vs-physical-cribbage",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.032Z",
       "notes": ""
     },
     {
@@ -1221,9 +1221,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Team Play: Four-Player Partnership Rules",
       "slug": "cribbage-team-play-partnership-rules",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.093Z",
       "notes": ""
     },
     {
@@ -1234,9 +1234,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Count a Cribbage Hand Without Making Errors",
       "slug": "how-to-count-cribbage-hand-correctly",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.155Z",
       "notes": ""
     },
     {
@@ -1247,9 +1247,9 @@
       "internalCategory": "Cribbage",
       "title": "Famous Cribbage Players and World Records",
       "slug": "famous-cribbage-players-world-records",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.216Z",
       "notes": ""
     },
     {
@@ -1260,9 +1260,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Hand Rankings and Probabilities Explained (Part 2)",
       "slug": "cribbage-hand-rankings-and-probabilities-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.277Z",
       "notes": ""
     },
     {
@@ -1273,9 +1273,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Pegging Strategy: When to Go Offensive or Defensive (Part 2)",
       "slug": "cribbage-pegging-strategy-offensive-defensive-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.338Z",
       "notes": ""
     },
     {
@@ -1286,9 +1286,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Scoring Systems: How Points Work (Part 2)",
       "slug": "solitaire-scoring-systems-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.400Z",
       "notes": ""
     },
     {
@@ -1299,9 +1299,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Improve Your Solitaire Win Rate: Expert Tips (Part 2)",
       "slug": "improve-solitaire-win-rate-tips-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.461Z",
       "notes": ""
     },
     {
@@ -1312,9 +1312,9 @@
       "internalCategory": "Solitaire",
       "title": "Best Free Online Solitaire Sites in 2026 (Part 2)",
       "slug": "best-free-online-solitaire-sites-2026-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.524Z",
       "notes": ""
     },
     {
@@ -1325,9 +1325,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire for Kids: Simple Variants to Start With (Part 2)",
       "slug": "solitaire-for-kids-simple-variants-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.586Z",
       "notes": ""
     },
     {
@@ -1338,9 +1338,9 @@
       "internalCategory": "Cribbage",
       "title": "Two-Player vs Three-Player vs Four-Player Cribbage: Differences (Part 2)",
       "slug": "two-player-three-player-four-player-cribbage-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.654Z",
       "notes": ""
     },
     {
@@ -1351,9 +1351,9 @@
       "internalCategory": "Cribbage",
       "title": "Muggins Rule in Cribbage: What It Is and When It Applies (Part 2)",
       "slug": "muggins-rule-in-cribbage-explained-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.715Z",
       "notes": ""
     },
     {
@@ -1364,9 +1364,9 @@
       "internalCategory": "Cribbage",
       "title": "How Points Are Counted in the Cribbage Crib (Part 2)",
       "slug": "how-points-counted-in-cribbage-crib-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.775Z",
       "notes": ""
     },
     {
@@ -1377,9 +1377,9 @@
       "internalCategory": "Cribbage",
       "title": "Best Cribbage Discards: What to Keep and What to Toss (Part 2)",
       "slug": "best-cribbage-discards-strategy-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.835Z",
       "notes": ""
     },
     {
@@ -1390,9 +1390,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Tournament Play: Rules and Formats (Part 2)",
       "slug": "solitaire-tournament-play-rules-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.895Z",
       "notes": ""
     },
     {
@@ -1403,9 +1403,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Card Combinations: Pairs, Runs & Fifteens Explained (Part 2)",
       "slug": "cribbage-card-combinations-pairs-runs-fifteens-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:07.955Z",
       "notes": ""
     },
     {
@@ -1416,9 +1416,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage vs Other Card Games: Why It Stands Apart (Part 2)",
       "slug": "cribbage-vs-other-card-games-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.017Z",
       "notes": ""
     },
     {
@@ -1429,9 +1429,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Play Cribbage for Beginners: A Complete Guide (Part 2)",
       "slug": "how-to-play-cribbage-for-beginners-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.078Z",
       "notes": ""
     },
     {
@@ -1442,9 +1442,9 @@
       "internalCategory": "Solitaire",
       "title": "Golf Solitaire: How to Play and Win (Part 2)",
       "slug": "golf-solitaire-how-to-play-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.140Z",
       "notes": ""
     },
     {
@@ -1455,9 +1455,9 @@
       "internalCategory": "Solitaire",
       "title": "Spider Solitaire One-Suit vs Four-Suit: Which Is Harder? (Part 2)",
       "slug": "spider-solitaire-one-suit-vs-four-suit-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.202Z",
       "notes": ""
     },
     {
@@ -1468,9 +1468,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Opening Discards: 10 Expert Moves Explained (Part 2)",
       "slug": "cribbage-opening-discards-expert-moves-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.262Z",
       "notes": ""
     },
     {
@@ -1481,9 +1481,9 @@
       "internalCategory": "Solitaire",
       "title": "What to Do When You're Stuck in Solitaire (Part 2)",
       "slug": "what-to-do-stuck-in-solitaire-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.322Z",
       "notes": ""
     },
     {
@@ -1494,9 +1494,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Win Klondike Solitaire Every Time (Almost) (Part 2)",
       "slug": "how-to-win-klondike-solitaire-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.383Z",
       "notes": ""
     },
     {
@@ -1507,9 +1507,9 @@
       "internalCategory": "Solitaire",
       "title": "Pyramid Solitaire Explained: Rules and How to Win (Part 2)",
       "slug": "pyramid-solitaire-rules-how-to-win-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.444Z",
       "notes": ""
     },
     {
@@ -1520,9 +1520,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire World Records: Fastest Completions (Part 2)",
       "slug": "solitaire-world-records-fastest-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.506Z",
       "notes": ""
     },
     {
@@ -1533,9 +1533,9 @@
       "internalCategory": "Solitaire",
       "title": "Best Solitaire Variants Ranked: Klondike, Spider, FreeCell & More (Part 2)",
       "slug": "best-solitaire-variants-ranked-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.569Z",
       "notes": ""
     },
     {
@@ -1546,9 +1546,9 @@
       "internalCategory": "Solitaire",
       "title": "FreeCell Solitaire: Is Every Deal Winnable? (Part 2)",
       "slug": "freecell-solitaire-every-deal-winnable-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.632Z",
       "notes": ""
     },
     {
@@ -1559,9 +1559,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Scoring Rules Explained — Every Hand Combination (Part 2)",
       "slug": "cribbage-scoring-rules-explained-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.700Z",
       "notes": ""
     },
     {
@@ -1572,9 +1572,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Defensive Strategy: Protecting Your Lead (Part 2)",
       "slug": "cribbage-defensive-strategy-protecting-lead-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.765Z",
       "notes": ""
     },
     {
@@ -1585,9 +1585,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Play Two-Deck Solitaire Games (Part 2)",
       "slug": "two-deck-solitaire-games-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.826Z",
       "notes": ""
     },
     {
@@ -1598,9 +1598,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Etiquette: How to Play Properly and Respectfully (Part 2)",
       "slug": "cribbage-etiquette-how-to-play-properly-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.888Z",
       "notes": ""
     },
     {
@@ -1611,9 +1611,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Teach Cribbage to Kids and Beginners (Part 2)",
       "slug": "how-to-teach-cribbage-to-kids-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:08.950Z",
       "notes": ""
     },
     {
@@ -1624,9 +1624,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Records: Highest Scores and Longest Games (Part 2)",
       "slug": "cribbage-records-highest-scores-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.010Z",
       "notes": ""
     },
     {
@@ -1637,9 +1637,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Apps Compared: Top 5 Free Options (Part 2)",
       "slug": "solitaire-apps-compared-top-5-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.070Z",
       "notes": ""
     },
     {
@@ -1650,9 +1650,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire at 100 WPM: Speed Records and Techniques (Part 2)",
       "slug": "solitaire-speed-records-techniques-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.132Z",
       "notes": ""
     },
     {
@@ -1663,9 +1663,9 @@
       "internalCategory": "Solitaire",
       "title": "Canfield Solitaire: History, Rules, and Tips (Part 2)",
       "slug": "canfield-solitaire-history-rules-tips-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.192Z",
       "notes": ""
     },
     {
@@ -1676,9 +1676,9 @@
       "internalCategory": "Cribbage",
       "title": "Speed Cribbage: Rules for Faster-Paced Play (Part 2)",
       "slug": "speed-cribbage-rules-faster-play-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.253Z",
       "notes": ""
     },
     {
@@ -1689,9 +1689,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Read a Cribbage Board and Track Score (Part 2)",
       "slug": "how-to-read-cribbage-board-track-score-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.315Z",
       "notes": ""
     },
     {
@@ -1702,9 +1702,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Strategy: When to Deal Again vs Replay (Part 2)",
       "slug": "solitaire-strategy-deal-again-replay-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.377Z",
       "notes": ""
     },
     {
@@ -1715,9 +1715,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Math: How Arithmetic Improves Your Game (Part 2)",
       "slug": "cribbage-math-arithmetic-improves-game-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.440Z",
       "notes": ""
     },
     {
@@ -1728,9 +1728,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Tournament Rules and Formats (Part 2)",
       "slug": "cribbage-tournament-rules-and-formats-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.503Z",
       "notes": ""
     },
     {
@@ -1741,9 +1741,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Board Setup and Game Variants Guide (Part 2)",
       "slug": "cribbage-board-setup-and-variants-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.563Z",
       "notes": ""
     },
     {
@@ -1754,9 +1754,9 @@
       "internalCategory": "Cribbage",
       "title": "Digital Cribbage Apps: The Best Options in 2026 (Part 2)",
       "slug": "digital-cribbage-apps-best-2026-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.628Z",
       "notes": ""
     },
     {
@@ -1767,9 +1767,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Hand Analysis: Top 5 Strongest Hands (Part 2)",
       "slug": "cribbage-hand-analysis-strongest-hands-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.695Z",
       "notes": ""
     },
     {
@@ -1780,9 +1780,9 @@
       "internalCategory": "Solitaire",
       "title": "How Microsoft Solitaire Changed Card Gaming Forever (Part 2)",
       "slug": "microsoft-solitaire-changed-card-gaming-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.756Z",
       "notes": ""
     },
     {
@@ -1793,9 +1793,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Win at Cribbage Consistently: Pro Tips (Part 2)",
       "slug": "how-to-win-at-cribbage-consistently-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.816Z",
       "notes": ""
     },
     {
@@ -1806,9 +1806,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage for Seniors: Benefits and How to Get Started (Part 2)",
       "slug": "cribbage-for-seniors-benefits-getting-started-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.878Z",
       "notes": ""
     },
     {
@@ -1819,9 +1819,9 @@
       "internalCategory": "Cribbage",
       "title": "Why Cribbage Is Good for Your Brain (Part 2)",
       "slug": "why-cribbage-is-good-for-your-brain-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:09.943Z",
       "notes": ""
     },
     {
@@ -1832,9 +1832,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Improve at Cribbage: Practice Drills for Players (Part 2)",
       "slug": "how-to-improve-at-cribbage-practice-drills-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.007Z",
       "notes": ""
     },
     {
@@ -1845,9 +1845,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Terminology Glossary: Every Term You Need to Know (Part 2)",
       "slug": "cribbage-terminology-glossary-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.068Z",
       "notes": ""
     },
     {
@@ -1858,9 +1858,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire for Mental Health: Why It Helps (Part 2)",
       "slug": "solitaire-for-mental-health-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.127Z",
       "notes": ""
     },
     {
@@ -1871,9 +1871,9 @@
       "internalCategory": "Solitaire",
       "title": "Aces Up Solitaire: Rules and Strategy (Part 2)",
       "slug": "aces-up-solitaire-rules-strategy-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.188Z",
       "notes": ""
     },
     {
@@ -1884,9 +1884,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Odds: Can Every Game Be Won? (Part 2)",
       "slug": "solitaire-odds-can-every-game-be-won-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.251Z",
       "notes": ""
     },
     {
@@ -1897,9 +1897,9 @@
       "internalCategory": "Cribbage",
       "title": "Advanced Cribbage Strategy: Counting, Discarding & Pegging (Part 2)",
       "slug": "advanced-cribbage-strategy-counting-discarding-pegging-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.313Z",
       "notes": ""
     },
     {
@@ -1910,9 +1910,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage for One: Solitaire Cribbage Rules (Part 2)",
       "slug": "cribbage-for-one-solitaire-rules-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.375Z",
       "notes": ""
     },
     {
@@ -1923,9 +1923,9 @@
       "internalCategory": "Solitaire",
       "title": "Tri Peaks Solitaire: Beginner Strategy Guide (Part 2)",
       "slug": "tri-peaks-solitaire-strategy-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.439Z",
       "notes": ""
     },
     {
@@ -1936,9 +1936,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Variants: Lowball, Shotgun, and Cricket Explained (Part 2)",
       "slug": "cribbage-variants-lowball-shotgun-cricket-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.504Z",
       "notes": ""
     },
     {
@@ -1949,9 +1949,9 @@
       "internalCategory": "Solitaire",
       "title": "Baker's Dozen Solitaire: Rules and Tips (Part 2)",
       "slug": "bakers-dozen-solitaire-rules-tips-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.565Z",
       "notes": ""
     },
     {
@@ -1962,9 +1962,9 @@
       "internalCategory": "Cribbage",
       "title": "Common Cribbage Mistakes and How to Avoid Them (Part 2)",
       "slug": "common-cribbage-mistakes-how-to-avoid-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.629Z",
       "notes": ""
     },
     {
@@ -1975,9 +1975,9 @@
       "internalCategory": "Solitaire",
       "title": "Speed Solitaire Challenges: How to Play Faster (Part 2)",
       "slug": "speed-solitaire-challenges-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.698Z",
       "notes": ""
     },
     {
@@ -1988,9 +1988,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Algorithms: How Computer Versions Are Built (Part 3)",
       "slug": "solitaire-algorithms-computer-versions-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.767Z",
       "notes": ""
     },
     {
@@ -2001,9 +2001,9 @@
       "internalCategory": "Solitaire",
       "title": "Forty Thieves Solitaire Explained (Part 3)",
       "slug": "forty-thieves-solitaire-explained-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.834Z",
       "notes": ""
     },
     {
@@ -2014,9 +2014,9 @@
       "internalCategory": "Cribbage",
       "title": "The History and Origins of Cribbage (Part 2)",
       "slug": "history-and-origins-of-cribbage-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:10.908Z",
       "notes": ""
     },
     {
@@ -2027,9 +2027,9 @@
       "internalCategory": "Cribbage",
       "title": "The Perfect Cribbage Hand: Is 29 Points Achievable? (Part 2)",
       "slug": "perfect-cribbage-hand-29-points-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.033Z",
       "notes": ""
     },
     {
@@ -2040,9 +2040,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Play Double Klondike Solitaire (Part 3)",
       "slug": "how-to-play-double-klondike-solitaire-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.095Z",
       "notes": ""
     },
     {
@@ -2053,9 +2053,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Probability: What Are the Odds of a 29-Point Hand? (Part 2)",
       "slug": "cribbage-probability-29-point-hand-odds-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.157Z",
       "notes": ""
     },
     {
@@ -2066,9 +2066,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage House Rules: Variations Across the UK and US (Part 2)",
       "slug": "cribbage-house-rules-uk-us-variations-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.218Z",
       "notes": ""
     },
     {
@@ -2079,9 +2079,9 @@
       "internalCategory": "Solitaire",
       "title": "The History of Solitaire: From Card Tables to Screens (Part 3)",
       "slug": "history-of-solitaire-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.279Z",
       "notes": ""
     },
     {
@@ -2092,9 +2092,9 @@
       "internalCategory": "Solitaire",
       "title": "How Solitaire Teaches Probability and Planning (Part 3)",
       "slug": "solitaire-teaches-probability-planning-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.341Z",
       "notes": ""
     },
     {
@@ -2105,9 +2105,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Starter Card Strategy: How to Use the Cut (Part 2)",
       "slug": "cribbage-starter-card-strategy-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.404Z",
       "notes": ""
     },
     {
@@ -2118,9 +2118,9 @@
       "internalCategory": "Cribbage",
       "title": "Online Cribbage vs Physical Cribbage: Key Differences (Part 2)",
       "slug": "online-cribbage-vs-physical-cribbage-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.471Z",
       "notes": ""
     },
     {
@@ -2131,9 +2131,9 @@
       "internalCategory": "Solitaire",
       "title": "Classic Card Game Patience Variants from Around the World (Part 3)",
       "slug": "patience-variants-around-the-world-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.536Z",
       "notes": ""
     },
     {
@@ -2144,9 +2144,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire on Mobile vs Desktop: Best Experience Guide (Part 3)",
       "slug": "solitaire-mobile-vs-desktop-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.603Z",
       "notes": ""
     },
     {
@@ -2157,9 +2157,9 @@
       "internalCategory": "Solitaire",
       "title": "How to Play Klondike Solitaire: Rules and Strategy (Part 3)",
       "slug": "how-to-play-klondike-solitaire-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.671Z",
       "notes": ""
     },
     {
@@ -2170,9 +2170,9 @@
       "internalCategory": "Solitaire",
       "title": "Patience Card Games: The British Family of Solitaire (Part 3)",
       "slug": "patience-card-games-british-solitaire-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.742Z",
       "notes": ""
     },
     {
@@ -2183,9 +2183,9 @@
       "internalCategory": "Cribbage",
       "title": "Cribbage Team Play: Four-Player Partnership Rules (Part 2)",
       "slug": "cribbage-team-play-partnership-rules-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.818Z",
       "notes": ""
     },
     {
@@ -2196,9 +2196,9 @@
       "internalCategory": "Solitaire",
       "title": "Daily Solitaire Challenges: Why They Boost Engagement (Part 3)",
       "slug": "daily-solitaire-challenges-engagement-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.892Z",
       "notes": ""
     },
     {
@@ -2209,9 +2209,9 @@
       "internalCategory": "Solitaire",
       "title": "Spider Solitaire Rules and Winning Strategy Guide (Part 3)",
       "slug": "spider-solitaire-rules-strategy-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:11.956Z",
       "notes": ""
     },
     {
@@ -2222,9 +2222,9 @@
       "internalCategory": "Solitaire",
       "title": "FreeCell Solitaire: Tips and Strategy for Beginners (Part 3)",
       "slug": "freecell-solitaire-tips-beginners-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:12.022Z",
       "notes": ""
     },
     {
@@ -2235,9 +2235,9 @@
       "internalCategory": "Cribbage",
       "title": "How to Count a Cribbage Hand Without Making Errors (Part 2)",
       "slug": "how-to-count-cribbage-hand-correctly-2",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:12.084Z",
       "notes": ""
     },
     {
@@ -2248,9 +2248,9 @@
       "internalCategory": "Solitaire",
       "title": "The Easiest Solitaire Games for Absolute Beginners (Part 3)",
       "slug": "easiest-solitaire-games-beginners-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:12.152Z",
       "notes": ""
     },
     {
@@ -2261,9 +2261,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire vs Patience: What's the Difference? (Part 3)",
       "slug": "solitaire-vs-patience-difference-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:12.229Z",
       "notes": ""
     },
     {
@@ -2274,9 +2274,9 @@
       "internalCategory": "Solitaire",
       "title": "La Belle Lucie Solitaire: How to Play (Part 3)",
       "slug": "la-belle-lucie-solitaire-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:12.320Z",
       "notes": ""
     },
     {
@@ -2287,9 +2287,9 @@
       "internalCategory": "Solitaire",
       "title": "Solitaire Scoring Systems: How Points Work (Part 3)",
       "slug": "solitaire-scoring-systems-3",
-      "status": "scheduled",
+      "status": "generated",
       "retries": 0,
-      "generatedAt": null,
+      "generatedAt": "2026-03-08T19:17:12.392Z",
       "notes": ""
     },
     {
