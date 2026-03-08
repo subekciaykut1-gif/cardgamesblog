@@ -14,8 +14,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "cardgameshub.io" },
-      { protocol: "https", hostname: "images.unsplash.com" },
-      { protocol: "https", hostname: "image.pollinations.ai" },
+      { protocol: "https", hostname: "picsum.photos" },
     ],
   },
 };

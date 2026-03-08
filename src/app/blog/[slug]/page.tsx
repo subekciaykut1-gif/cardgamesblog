@@ -56,30 +56,11 @@ export default async function ArticlePage({ params }: { params: Params }) {
           </header>
 
           {/* Featured Image */}
-          {article.featuredImage === "fallback://cardgameshub" ? (
-            <div 
-              className="article-featured-image"
-              style={{ 
-                backgroundColor: 'var(--bg-secondary)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: 'var(--accent)',
-                fontSize: '6rem',
-                opacity: 0.8,
-                aspectRatio: '1200 / 630',
-                width: '100%'
-              }}
-            >
-              {['♠', '♥', '♦', '♣'][article.title.length % 4]}
-            </div>
-          ) : (
-            <img
-              src={article.featuredImage}
-              alt={article.altText}
-              className="article-featured-image"
-            />
-          )}
+          <img
+            src={article.featuredImage}
+            alt={article.altText}
+            className="article-featured-image"
+          />
 
           {/* Article Body */}
           <div className="article-body">

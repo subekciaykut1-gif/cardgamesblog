@@ -67,52 +67,10 @@ function findEntry() {
 }
 
 // ── Image helper ─────────────────────────────────────────────────────────────
-// Generates a highly relevant, unique image for every single article using Unsplash API
+// Generates a unique, stable image for every article using Picsum Photos
 
-async function getImage(title, category) {
-  const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
-  const fallback = {
-    url: "fallback://cardgameshub",
-    alt: `${title} - ${category} card game illustration`
-  };
-
-  if (!UNSPLASH_ACCESS_KEY) {
-    console.warn("⚠️ UNSPLASH_ACCESS_KEY not found in .env.local, using fallback placeholder image.");
-    return fallback;
-  }
-
-  let usedIds = [];
-  if (fs.existsSync(USED_IMAGES_PATH)) {
-    try {
-      usedIds = JSON.parse(fs.readFileSync(USED_IMAGES_PATH, "utf-8"));
-    } catch (e) {}
-  }
-
-  const query = encodeURIComponent(`${category} card game`);
-  const api = `https://api.unsplash.com/search/photos?query=${query}&client_id=${UNSPLASH_ACCESS_KEY}&per_page=30`;
-  
-  try {
-    const res = await fetch(api);
-    if (!res.ok) throw new Error(`Unsplash API error: ${res.statusText}`);
-    const data = await res.json();
-    
-    // Find first unused image
-    const photo = data.results.find(p => !usedIds.includes(p.id));
-    if (photo) {
-      usedIds.push(photo.id);
-      fs.writeFileSync(USED_IMAGES_PATH, JSON.stringify(usedIds, null, 2));
-      return {
-        url: photo.urls.regular,
-        alt: photo.alt_description || `${title} illustration`
-      };
-    } else {
-      console.warn("⚠️ No unique Unsplash images left for query:", query);
-    }
-  } catch (e) {
-    console.warn("⚠️ Unsplash fetch failed, using fallback:", e.message);
-  }
-
-  return fallback;
+function getImageUrl(slug) {
+  return `https://picsum.photos/seed/${slug}/800/450`;
 }
 
 // ── Content templates ─────────────────────────────────────────────────────────
@@ -411,7 +369,8 @@ The best move you can make right now? Start playing. [CardGamesHub.io](/) is the
 // ── Build MDX frontmatter + body ──────────────────────────────────────────────
 
 async function buildMdx(entry) {
-  const image = await getImage(entry.title, entry.category);
+  const imageUrl = getImageUrl(entry.slug);
+  const altText = `${entry.title} - ${entry.category} illustration`;
   const metaTitle = entry.title.length > 60
     ? entry.title.slice(0, 57) + "..."
     : entry.title;
@@ -440,8 +399,8 @@ category: "${entry.category}"
 publishedAt: "${entry.publishedAt}"
 author: "Tugrul Subekci"
 excerpt: "${excerpt.replace(/"/g, '\\"')}"
-featuredImage: "${image.url}"
-altText: "${image.alt.replace(/"/g, '\\"')}"
+featuredImage: "${imageUrl}"
+altText: "${altText.replace(/"/g, '\\"')}"
 metaTitle: "${metaTitle.replace(/"/g, '\\"')}"
 metaDescription: "${metaDesc.replace(/"/g, '\\"')}"
 tags: ${JSON.stringify(tags)}
